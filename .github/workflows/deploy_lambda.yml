@@ -22,7 +22,7 @@ jobs:
           python -m pip install --upgrade pip
 
       - name: Zip files
-        run: zip -r function.zip .
+        run: zip -r function.zip ngos_zios_generate_report.py
 
       - name: Deploy to Lambda
         uses: einaregilsson/lambda-deploy@v0.1.2
