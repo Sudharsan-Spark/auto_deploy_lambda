@@ -10,7 +10,7 @@ logger.setLevel(logging.INFO)
 s3client = boto3.client('s3')
 DATE = "%s-%02d-%02d" %(datetime.now().year, datetime.now().month, datetime.now().day)
 
-#checker
+#change
 
 def lambda_handler(event, context):
     bucket = "zadarastorage-metering"
